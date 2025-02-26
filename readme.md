@@ -57,7 +57,7 @@
 
 通过设置`cd`、`ls`这些指令使得客户能在**root**范围内调整其所在位置：
 
-<img src="images.assets\{93066EC5-ED35-483E-90A8-08EA9C4A97CB}.png" alt="{93066EC5-ED35-483E-90A8-08EA9C4A97CB}" style="zoom:50%;" />
+<img src="images.assets\{93066EC5-ED35-483E-90A8-08EA9C4A97CB}.png" alt="{93066EC5-ED35-483E-90A8-08EA9C4A97CB}" style="zoom: 25%;" />
 
 通过将用户限定在**root**范围内，保证了服务器的其他文件对用户**不可见**，用户也能通过建立、修改文件夹的方式使得其文件存放保持有序。
 
@@ -143,7 +143,7 @@
 
 这里以**日志**的形式展现多线程下写出的日志：
 
-<img src="images.assets\{B5FD2D49-A0CA-4E71-B7AA-1CCFA1E01C6E}.png" alt="{B5FD2D49-A0CA-4E71-B7AA-1CCFA1E01C6E}" style="zoom:33%;" />
+<img src="images.assets\{B5FD2D49-A0CA-4E71-B7AA-1CCFA1E01C6E}.png" alt="{B5FD2D49-A0CA-4E71-B7AA-1CCFA1E01C6E}" style="zoom: 25%;" />
 
 > 可以看到连接的**端口号**不同，即对应了不同的客户。
 
@@ -186,7 +186,7 @@
 
 大致效果如图：
 
-<img src="images.assets\29c7cb6cbbe281db84b5ee82dd5217d.png" alt="29c7cb6cbbe281db84b5ee82dd5217d" style="zoom:33%;" />
+<img src="images.assets\29c7cb6cbbe281db84b5ee82dd5217d.png" alt="29c7cb6cbbe281db84b5ee82dd5217d" style="zoom: 25%;" />
 
 > 缓存里内容在客户端退出的时候**自动删除**。
 
@@ -194,7 +194,7 @@
 
 指令一多起来就不好记了，写一个本地的帮助文档，方便随时使用`help`指令查看：
 
-<img src="images.assets\{3C4ED76E-9EF9-47A5-9365-3214D027599C}.png" alt="{3C4ED76E-9EF9-47A5-9365-3214D027599C}" style="zoom: 33%;" />
+<img src="images.assets\{3C4ED76E-9EF9-47A5-9365-3214D027599C}.png" alt="{3C4ED76E-9EF9-47A5-9365-3214D027599C}" style="zoom: 25%;" />
 
 然后把**TCP**套接字连接的**IP**地址、端口号参数放在`ipconfig.txt`文件中，可以通过在该文件中修改来改变连接的地址。(程序在发起连接前会自动检测该文件，如有捕获参数则使用其替代默认参数。)
 
@@ -780,7 +780,7 @@ private:
 
 每一次心跳，打印出每个**Server_Node**的**Value**，观看变化。
 
-<img src="images.assets\{E3661E43-3C7C-45F3-9EC6-29F4499E6FEC}.png" alt="{E3661E43-3C7C-45F3-9EC6-29F4499E6FEC}" style="zoom:50%;" />
+<img src="images.assets\{E3661E43-3C7C-45F3-9EC6-29F4499E6FEC}.png" alt="{E3661E43-3C7C-45F3-9EC6-29F4499E6FEC}" style="zoom: 33%;" />
 
 可以看到，这里指针的值由默认空指针变成有值，且多个节点逐渐达到一致。
 
@@ -788,7 +788,7 @@ private:
 
 |                             开始                             |                             中间                             |                             后期                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![{F2FC5E19-062A-4965-A22E-971B7994BB8A}](images.assets\{F2FC5E19-062A-4965-A22E-971B7994BB8A}.png) | ![{FFBA83D4-C050-4900-ADE8-13EE9F6F936D}](images.assets\{FFBA83D4-C050-4900-ADE8-13EE9F6F936D}.png) | ![{4615420B-7898-4452-A98C-F81E4337E622}](images.assets\{4615420B-7898-4452-A98C-F81E4337E622}.png) |
+| <img src="images.assets\{F2FC5E19-062A-4965-A22E-971B7994BB8A}.png" alt="{F2FC5E19-062A-4965-A22E-971B7994BB8A}" style="zoom:80%;" /> | <img src="images.assets\{FFBA83D4-C050-4900-ADE8-13EE9F6F936D}.png" alt="{FFBA83D4-C050-4900-ADE8-13EE9F6F936D}" style="zoom:80%;" /> | <img src="images.assets\{4615420B-7898-4452-A98C-F81E4337E622}.png" alt="{4615420B-7898-4452-A98C-F81E4337E622}" style="zoom:80%;" /> |
 
 > 这里为了清晰展示就不打印**Learner**的消息了。
 
